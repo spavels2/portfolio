@@ -1,0 +1,451 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  letter-spacing: -0.03em;
+}
+
+.heading__h2 {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 1150px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: left;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.presentation {
+  height: 765px;
+  position: relative;
+  background-image: url(/resourses/photo-for-portfolio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.presentation__nav {
+  margin: 0 auto;
+  width: 1153px;
+  height: 55px;
+  padding-top: 33px;
+}
+
+.nav__logo {
+  margin-top: 4px;
+  width: 130px;
+  height: 39px;
+  display: inline-block;
+  position: relative;
+  border-radius: 100px;
+  background: rgb(0, 0, 0);
+}
+
+.nav__logo a {
+  width: 109px;
+  height: 55px;
+  position: absolute;
+  color: rgb(27, 255, 7);
+  font-size: 42.41px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  top: -24%;
+  left: 7%;
+}
+
+.nav {
+  float: right;
+}
+
+.nav__link {
+  display: inline-block;
+  line-height: 23px;
+  text-align: left;
+  margin-right: 42px;
+}
+
+.nav__link a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav__link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav__link a:hover {
+  color: rgb(27, 255, 7);
+}
+
+.presentation__text__uslugi {
+  position: absolute;
+  width: 430px;
+  height: 103px;
+  left: 125px;
+  top: 334px;
+
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.presentation__text__about-me {
+  width: 919px;
+  height: 205px;
+  position: absolute;
+  color: rgb(27, 255, 7);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: left;
+  left: 119px;
+  top: 466px;
+}
+
+.project {
+  padding-bottom: 150px;
+  width: 100%;
+  padding-top: 150px;
+  background-color: black;
+  color: rgba(255, 255, 255, 1);
+}
+
+.project__example {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.project__example__item {
+  height: 550px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.project__example__item:nth-last-child(3) {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 100%),
+    url(/resourses/realhome__design.png);
+  background-position: 0% 4%;
+  background-size: cover;
+}
+
+.project__example__item:nth-last-child(2) {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 100%),
+    url(/resourses/glass__design.png);
+  background-position: 0%;
+  background-size: cover;
+}
+
+.project__example__item:nth-last-child(1) {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 100%),
+    url(/resourses/fesiyen__design.png);
+  background-position: 0%;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.project__example__item h3 {
+  position: absolute;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+  left: 50px;
+  bottom: 94px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.project__example__item p {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  left: 50px;
+  bottom: 50px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.project__button {
+  margin-left: 125px;
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  background: rgb(27, 255, 7);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  color: rgb(0, 0, 0);
+}
+
+.project__button:hover {
+  background: none;
+  color: rgb(27, 255, 7);
+  border: 3px solid rgb(27, 255, 7);
+}
+
+.competencies {
+  width: 100%;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding-bottom: 150px;
+}
+
+.competencies h2 {
+  margin-bottom: 104px;
+}
+
+.competencies__example {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.competencies__example__item {
+  margin-bottom: 120px;
+  width: 778px;
+  position: relative;
+}
+
+.competencies__example__item:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.competencies__example__item h3 {
+  margin-bottom: 15px;
+  color: rgb(27, 255, 7);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.competencies__example__item p {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.competencies__example__item::before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  position: absolute;
+  background-color: rgb(27, 255, 7);
+  border-radius: 10px;
+}
+
+.icon__html::before {
+  background-image: url(/resourses/icon__html.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 50% 50%;
+  top: -58px;
+}
+
+.icon__js::before {
+  background-image: url(/resourses/icon__js.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 50% 50%;
+  top: -58px;
+}
+
+.icon__phone::before {
+  background-image: url(/resourses/icon__phone.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 50% 50%;
+  top: -58px;
+}
+
+.icon__adaptive::before {
+  background-image: url(/resourses/icon__adaptive.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 50% 50%;
+  top: -58px;
+}
+
+.services {
+  background-color: black;
+}
+
+.services h2 {
+  margin-bottom: 74px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.services__example__item {
+  margin-bottom: 72px;
+}
+
+.services__example__item:nth-last-child(1) {
+  margin-top: 137px;
+  margin-bottom: 0;
+  padding-bottom: 150px;
+}
+
+.services__example__item__img {
+  margin: 0 auto;
+  width: 1150px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.website__development {
+  background-image: url(/resourses/website__development.png);
+  background-position: 0% 7%;
+}
+
+.site__layout {
+  background-image: url(/resourses/site__layout.png);
+  background-position: 0% 50%;
+}
+
+.mobile__interface {
+  background-image: url(/resourses/mobile__interface.png);
+  background-position: 0% 34%;
+}
+
+.services__example__item__information {
+  margin: 0 auto;
+  width: 1150px;
+  height: 283px;
+  position: relative;
+  border-radius: 30px;
+  background: rgb(25, 28, 25);
+}
+
+.services__example__item__information h3 {
+  position: absolute;
+  color: rgb(27, 255, 7);
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 72px;
+  top: 40px;
+  left: 40px;
+}
+
+.services__example__item__information p {
+  width: 749px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  top: 127px;
+  left: 40px;
+}
+
+.contacts {
+  width: 100%;
+  background: black;
+}
+
+.contacts__item {
+  height: 717px;
+  border-radius: 30px;
+  background: rgb(25, 28, 25);
+  position: relative;
+  background-image: url(/resourses/contacts.png);
+  background-repeat: no-repeat;
+  background-size: 727px 717px;
+  background-position: 100%;
+}
+
+.contacts__item h3 {
+  position: absolute;
+  margin-bottom: 28px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 60px;
+  top: 320px;
+  left: 125px;
+}
+
+.contacts__item__connection {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  top: 408px;
+  left: 125px;
+}
+
+.contacts__item__connection p {
+  margin-bottom: 20px;
+}
+
+.contacts__item__connection p:hover {
+  color: rgba(27, 255, 7, 1);
+  cursor: pointer;
+}
+
+footer {
+  padding-top: 150px;
+  height: 373px;
+  background-color: black;
+}
+
+.footer__text {
+  width: 100%;
+  height: 289px;
+  position: relative;
+  padding-top: 150px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+}
+
+.footer__text__portfolio {
+  position: absolute;
+  top: 76px;
+  left: 125px;
+  font-family: "Manrope", serif;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer__text__portfolio:hover {
+  cursor: pointer;
+  color:rgb(27, 255, 7);
+}
+
+.footer__text__protection {
+  position: absolute;
+  top: 172px;
+  left: 125px;
+  font-family: "Manrope", serif;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
