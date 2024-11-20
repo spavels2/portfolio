@@ -34,7 +34,7 @@ button {
 .presentation {
   height: 765px;
   position: relative;
-  background-image: url(resourses/photo-for-portfolio.png);
+  background-image: url(../resourses/photo-for-portfolio.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -144,21 +144,21 @@ button {
 
 .project__example__item:nth-last-child(3) {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 100%),
-    url(resourses/realhome__design.png);
+    url(../resourses/realhome__design.png);
   background-position: 0% 4%;
   background-size: cover;
 }
 
 .project__example__item:nth-last-child(2) {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 100%),
-    url(resourses/glass__design.png);
+    url(../resourses/glass__design.png);
   background-position: 0%;
   background-size: cover;
 }
 
 .project__example__item:nth-last-child(1) {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 100%),
-    url(resourses/fesiyen__design.png);
+    url(../resourses/fesiyen__design.png);
   background-position: 0%;
   background-size: cover;
   margin-bottom: 80px;
@@ -254,7 +254,7 @@ button {
 }
 
 .icon__html::before {
-  background-image: url(resourses/icon__html.png);
+  background-image: url(../resourses/icon__html.png);
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: 50% 50%;
@@ -262,7 +262,7 @@ button {
 }
 
 .icon__js::before {
-  background-image: url(resourses/icon__js.png);
+  background-image: url(../resourses/icon__js.png);
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: 50% 50%;
@@ -270,7 +270,7 @@ button {
 }
 
 .icon__phone::before {
-  background-image: url(resourses/icon__phone.png);
+  background-image: url(../resourses/icon__phone.png);
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: 50% 50%;
@@ -278,7 +278,7 @@ button {
 }
 
 .icon__adaptive::before {
-  background-image: url(resourses/icon__adaptive.png);
+  background-image: url(../resourses/icon__adaptive.png);
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: 50% 50%;
@@ -317,17 +317,17 @@ button {
 }
 
 .website__development {
-  background-image: url(resourses/website__development.png);
+  background-image: url(../resourses/website__development.png);
   background-position: 0% 7%;
 }
 
 .site__layout {
-  background-image: url(resourses/site__layout.png);
+  background-image: url(../resourses/site__layout.png);
   background-position: 0% 50%;
 }
 
 .mobile__interface {
-  background-image: url(resourses/mobile__interface.png);
+  background-image: url(../resourses/mobile__interface.png);
   background-position: 0% 34%;
 }
 
@@ -371,7 +371,7 @@ button {
   border-radius: 30px;
   background: rgb(25, 28, 25);
   position: relative;
-  background-image: url(resourses/contacts.png);
+  background-image: url(../resourses/contacts.png);
   background-repeat: no-repeat;
   background-size: 727px 717px;
   background-position: 100%;
